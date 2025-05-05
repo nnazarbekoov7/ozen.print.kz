@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ozen Print</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f8fb;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0077cc;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: bold;
+      border-bottom: 4px solid #00bfff;
+    }
+
+    .container {
+      display: flex;
+      min-height: calc(100vh - 100px); /* экран биіктігінен хидер мен футерді алып тастадық */
+    }
+
+    .sidebar {
+      width: 220px;
+      background: #0077cc;
+      color: white;
+      padding: 20px;
+    }
+
+    .sidebar h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .sidebar ul li {
+      margin-bottom: 1rem;
+    }
+
+    .sidebar ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .sidebar ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .main-content {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .services {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .services h3 {
+      font-size: 1.8rem;
+      text-align: center;
+      padding: 1.5rem 0 1rem;
+      color: #0077cc;
+    }
+
+    .services ul {
+      list-style: none;
+      padding: 0 2rem 2rem;
+    }
+
+    .services ul li {
+      padding: 0.8rem 0;
+      text-align: center;
+    }
+
+    .services ul li a {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #0077cc;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s;
+      font-size: 1.1rem;
+    }
+
+    .services ul li a:hover {
+      background: #005fa3;
+    }
+
+    footer {
+      background: #0077cc;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      border-top: 4px solid #00bfff;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Полиграфиялық қызметтер</h2>
+    <p>Жоғары сапада, қолжетімді бағамен</p>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Мәзір</h2>
+      <ul>
+        <li><a href="basty.bet.html">Басты бет</a></li>
+        <li><a href="#">Қызметтер</a></li>
+        <li><a href="#">Байланыс</a></li>
+      </ul>
+    </aside>
+
+    <div class="main-content">
+      <section class="services">
+        <h3>Қызметтер тізімі</h3>
+        <ul>
+          <li><a href="vizitka.basu.html" target="_blank">Визитка басу</a></li>
+          <li><a href="listovka.html" target="_blank">Листовка жасау</a></li>
+          <li><a href="plakat.html" target="_blank">Плакат шығару</a></li>
+          <li><a href="broshura.html" target="_blank">Брошюра басу</a></li>
+          <li><a href="kaptama.html" target="_blank">Қаптама басу</a></li>
+        </ul>
+      </section>
+
+      <footer>
+        <p>©️ 2025 ozen.print.kz  Біздің байланыстар:</p>
+        <p>+7 771 161 4758</p>
+        <p>+7 775 796 4300</p>
+      </footer>
+    </div>
+  </div>
+
+</body>
+</html>
